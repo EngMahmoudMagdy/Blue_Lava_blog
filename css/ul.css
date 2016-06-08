@@ -1,0 +1,50 @@
+ CSS Tidy   
+
+
+ul{
+
+  list-style-type:none
+
+} 
+
+ul li{
+
+  display: inline-block;
+
+  float: right;
+
+  padding: 5px 25px;
+
+  background: #000;
+
+  border: 3px solid #B8B8B8;
+
+    border-left: 0;
+
+  color: #fff;
+
+    line-height: 25px;
+
+  border-radius: 0px 5px 5px 0px;
+
+  position:relative;
+
+  cursor:pointer;
+
+}
+
+ul li:hover{
+
+  background:#666;
+
+}
+
+ul li:hover:before{
+
+  background:#666;
+
+}
+
+ul li:before
+
+{
